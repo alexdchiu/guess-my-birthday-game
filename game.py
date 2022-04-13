@@ -23,8 +23,9 @@ for count in range(5):
   response = input("yes or no?")
   if response == "yes":
     print("I knew it!")
-    break
+    exit()
   elif response == "no" and count < 4:
     print("Drat! Lemme try again!")
-  else:
-    print ("I have other things to do. Good bye.")
+
+
+print ("I have other things to do. Good bye.")
